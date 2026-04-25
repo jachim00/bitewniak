@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#1A2A4A"/>
+  <rect x="30" y="30" width="540" height="540" fill="none" stroke="#D4A537" stroke-width="3"/>
+  <rect x="40" y="40" width="520" height="520" fill="none" stroke="#D4A537" stroke-width="1" opacity=".6"/>
+  <!-- heraldic shield central -->
+  <g transform="translate(300 300)">
+    <path d="M-100 -120 Q-100 -130 -90 -130 L90 -130 Q100 -130 100 -120 L100 30 Q100 130 0 170 Q-100 130 -100 30 Z" fill="#D4A537" opacity=".25" stroke="#D4A537" stroke-width="2"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="Cinzel, serif" font-size="50" font-weight="700" fill="#D4A537">1066</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Cinzel, serif" font-size="32" font-weight="700" fill="#D4A537" letter-spacing="2">HASTINGS</text>
+    <text x="0" y="60" text-anchor="middle" font-family="EB Garamond, serif" font-size="13" font-style="italic" fill="#D4A537" opacity=".85">Normanowie vs Saxoni</text>
+  </g>
+  <!-- crossed swords decorative -->
+  <g transform="translate(300 100)" opacity=".5">
+    <line x1="-30" y1="-25" x2="30" y2="25" stroke="#D4A537" stroke-width="2"/>
+    <line x1="30" y1="-25" x2="-30" y2="25" stroke="#D4A537" stroke-width="2"/>
+  </g>
+  <text x="300" y="540" text-anchor="middle" font-family="EB Garamond, serif" font-size="16" font-style="italic" fill="#D4A537">"Dies irae"</text>
+</svg>

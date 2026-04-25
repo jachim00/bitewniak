@@ -1,0 +1,15 @@
+{
+  "name": "bitwy-korony-landing",
+  "version": "1.0.0",
+  "description": "Bitwy Korony / Battles of the Crown — Kickstarter pre-launch landing page (Manager Games S.A.)",
+  "private": true,
+  "scripts": {
+    "placeholders": "node scripts/generate-placeholders.js",
+    "serve": "npx --yes http-server -p 9921 -c-1 .",
+    "render": "node scripts/render-pdf.js",
+    "build": "npm run placeholders && npm run render"
+  },
+  "devDependencies": {
+    "playwright": "^1.59.1"
+  }
+}

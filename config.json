@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "campaign": "bitwy-korony",
+    "version": "1.0",
+    "lang_default": "pl",
+    "langs": ["pl", "en"]
+  },
+  "brand": {
+    "name_pl": "BITWY KORONY",
+    "name_en": "BATTLES OF THE CROWN",
+    "subtitle_pl": "Battles of the Crown",
+    "subtitle_en": "Bitwy Korony",
+    "publisher": "Manager Games S.A.",
+    "ks_url": "https://www.kickstarter.com/projects/managergames/bitwy-korony",
+    "newsletter_url": "https://managergames.pl/newsletter",
+    "year": "MMXXVI",
+    "launch_quarter_pl": "Kickstarter Q3 2026",
+    "launch_quarter_en": "Kickstarter Q3 2026"
+  },
+  "palette": {
+    "bg_dark": "#1A2A4A",
+    "bg_dark_2": "#243559",
+    "bg_parchment": "#F2E8C9",
+    "bg_parchment_warm": "#E8D4A2",
+    "accent_gold": "#D4A537",
+    "accent_gold_bright": "#F2C94C",
+    "accent_red": "#B22222",
+    "accent_red_dark": "#7E1414",
+    "text_dark": "#2A1810",
+    "text_light": "#FAF1D9",
+    "grass": "#6B8E4E",
+    "sky": "#E8B068"
+  },
+  "tagline": {
+    "main_pl": "Historia nie jest tłem. Jest mechanizmem.",
+    "main_en": "History is not the backdrop. It is the engine.",
+    "emotional_pl": "Po której stronie staniesz?",
+    "emotional_en": "Which side will you choose?",
+    "subtitle_pl": "Two products. One rules engine. Your captain. Your banner.",
+    "subtitle_en": "Two products. One rules engine. Your captain. Your banner."
+  },
+  "hero_carousel": [
+    {
+      "key": "kircholm",
+      "year_roman": "MDCV",
+      "year": "1605",
+      "name_pl": "KIRCHOLM",
+      "name_en": "KIRCHOLM",
+      "tag_pl": "Triumf husarii nad Szwedami — 3:1",
+      "tag_en": "Polish hussars triumph over Swedes — 3:1 odds",
+      "img": "hero-1-kircholm.jpg",
+      "prompt": "Polish Hussar charge at Battle of Kircholm 1605, golden hour, winged hussars, Hetman Chodkiewicz on white horse. Oil painting + medieval illumination, NOT dark."
+    },
+    {
+      "key": "hastings",
+      "year_roman": "MLXVI",
+      "year": "1066",
+      "name_pl": "HASTINGS",
+      "name_en": "HASTINGS",
+      "tag_pl": "William Zdobywca — Norman cavalry charge",
+      "tag_en": "William the Conqueror — Norman cavalry charge",
+      "img": "hero-2-hastings.jpg",
+      "prompt": "Battle of Hastings 1066, Norman cavalry charging Senlac Hill, William the Conqueror, kite shields, Bayeux Tapestry oil painting style."
+    },
+    {
+      "key": "grunwald",
+      "year_roman": "MCDX",
+      "year": "1410",
+      "name_pl": "GRUNWALD",
+      "name_en": "GRUNWALD",
+      "tag_pl": "Największa bitwa rycerska średniowiecznej Europy",
+      "tag_en": "The largest knightly battle of medieval Europe",
+      "img": "hero-3-grunwald.jpg",
+      "prompt": "Battle of Grunwald 1410, King Jagiełło victorious on hilltop, Teutonic Knights retreating, oil painting Matejko-style but lighter and luminous."
+    },
+    {
+      "key": "agincourt",
+      "year_roman": "MCDXV",
+      "year": "1415",
+      "name_pl": "AGINCOURT",
+      "name_en": "AGINCOURT",
+      "tag_pl": "Henryk V i angielscy łucznicy w St Crispin's Day",
+      "tag_en": "Henry V and English longbowmen on St Crispin's Day",
+      "img": "hero-4-agincourt.jpg",
+      "prompt": "Battle of Agincourt 1415, English longbowmen, Henry V in golden armor, autumn morning light, oil painting, NOT muddy."
+    },
+    {
+      "key": "vienna",
+      "year_roman": "MDCLXXXIII",
+      "year": "1683",
+      "name_pl": "WIEDEŃ",
+      "name_en": "VIENNA",
+      "tag_pl": "Sobieski — największa szarża kawalerii w historii",
+      "tag_en": "Sobieski — the largest cavalry charge in history",
+      "img": "hero-5-vienna.jpg",
+      "prompt": "Battle of Vienna 1683, Sobieski leading hussar charge from Kahlenberg, Holy League banners, golden afternoon."
+    },
+    {
+      "key": "constantinople",
+      "year_roman": "MCDLIII",
+      "year": "1453",
+      "name_pl": "KONSTANTYNOPOL",
+      "name_en": "CONSTANTINOPLE",
+      "tag_pl": "Mehmed II — koniec średniowiecza",
+      "tag_en": "Mehmed II — end of the Middle Ages",
+      "img": "hero-6-constantinople.jpg",
+      "prompt": "Siege of Constantinople 1453, Ottoman bombards, walls of Constantinople, golden morning, dignified gravitas."
+    }
+  ],
+  "battles_world": [
+    {"year_roman": "MLXVI", "year": "1066", "name": "Hastings", "sides": "Normanowie vs Saxoni", "force": "8 000 vs 8 000", "motto": "Dies irae", "img": "battle-hastings.jpg"},
+    {"year_roman": "MCCXLI", "year": "1241", "name": "Legnica", "sides": "Polacy/Krzyżacy vs Mongołowie", "force": "8 000 vs 20 000", "motto": "Pierwsza obrona Europy", "img": "battle-legnica.jpg"},
+    {"year_roman": "MCCCXXXI", "year": "1331", "name": "Płowce", "sides": "Polska (Łokietek) vs Krzyżacy", "force": "5 000 vs 7 000", "motto": "W deszczu wygrana", "img": "battle-plowce.jpg"},
+    {"year_roman": "MCCCXLVI", "year": "1346", "name": "Crécy", "sides": "Anglia vs Francja", "force": "12 000 vs 30 000", "motto": "First longbow cluster", "img": "battle-crecy.jpg"},
+    {"year_roman": "MCDX", "year": "1410", "name": "Grunwald", "sides": "Polska/Litwa vs Krzyżacy", "force": "39 000 vs 27 000", "motto": "Regina Coeli, laetare", "img": "battle-grunwald.jpg"},
+    {"year_roman": "MCDXV", "year": "1415", "name": "Agincourt", "sides": "Anglia vs Francja", "force": "9 000 vs 30 000", "motto": "St Crispin's Day", "img": "battle-agincourt.jpg"},
+    {"year_roman": "MCDLIII", "year": "1453", "name": "Konstantynopol", "sides": "Bizancjum vs Osmanowie", "force": "7 000 vs 80 000", "motto": "Koniec średniowiecza", "img": "battle-constantinople.jpg"},
+    {"year_roman": "MCDLXXXV", "year": "1485", "name": "Bosworth", "sides": "Plantageneci vs Tudorowie", "force": "8 000 vs 5 000", "motto": "My kingdom for a horse", "img": "battle-bosworth.jpg"},
+    {"year_roman": "MDXIV", "year": "1514", "name": "Orsza", "sides": "Polska/Litwa vs Moskwa", "force": "30 000 vs 80 000", "motto": "Ostrogski triumf", "img": "battle-orsza.jpg"},
+    {"year_roman": "MDLXXI", "year": "1571", "name": "Lepanto", "sides": "Liga Święta vs Osmanowie", "force": "212 galer vs 251", "motto": "Ostatnia wielka morska", "img": "battle-lepanto.jpg"},
+    {"year_roman": "MDCV", "year": "1605", "name": "Kircholm", "sides": "Polska vs Szwecja", "force": "3 600 vs 11 000", "motto": "Deus fortitudo mea", "img": "battle-kircholm.jpg"},
+    {"year_roman": "MDCX", "year": "1610", "name": "Kłuszyn", "sides": "Polska vs Moskwa/Szwecja", "force": "7 000 vs 35 000", "motto": "Droga na Moskwę", "img": "battle-kluszyn.jpg"}
+  ],
+  "story": {
+    "logline_pl": "Trzy wieki. Cztery frakcje. Sto bitew. Jedna decyzja: po której stronie staniesz?",
+    "logline_en": "Three centuries. Four factions. A hundred battles. One question: which side will you choose?",
+    "captains": [
+      {
+        "name_pl": "Władysław Jagiełło",
+        "title_pl": "Król Polski, Wielki Książę Litewski",
+        "battle": "Grunwald 1410",
+        "motto": "REX POLONIAE ET MAGNUS DUX LITHUANIAE",
+        "blurb_pl": "Ostatni paganin, który ochrzcił Litwę i ścinał krzyżackie miecze.",
+        "blurb_en": "The last pagan ruler who baptized Lithuania and broke the Teutonic sword.",
+        "img": "captain-jagiello.jpg"
+      },
+      {
+        "name_pl": "Jan Karol Chodkiewicz",
+        "title_pl": "Wielki Hetman Litewski",
+        "battle": "Kircholm 1605",
+        "motto": "DEUS FORTITUDO MEA",
+        "blurb_pl": "Trzy godziny. Trzy do jednego. Trzy słowa: Deus fortitudo mea.",
+        "blurb_en": "Three hours. Three-to-one odds. Three words: Deus fortitudo mea.",
+        "img": "captain-chodkiewicz.jpg"
+      },
+      {
+        "name_pl": "Jan III Sobieski",
+        "title_pl": "Król Polski, Hetman Wielki Koronny",
+        "battle": "Wiedeń 1683",
+        "motto": "VENI VIDI DEUS VICIT",
+        "blurb_pl": "Największa szarża kawalerii w historii. Z odsieczą dla Europy.",
+        "blurb_en": "The largest cavalry charge in history. Riding to save Europe.",
+        "img": "captain-sobieski.jpg"
+      },
+      {
+        "name_pl": "Mehmed II Zdobywca",
+        "title_pl": "Sułtan Osmański",
+        "battle": "Konstantynopol 1453",
+        "motto": "FATIH",
+        "blurb_pl": "21 lat. Stolica Bizancjum. Granica trzech kontynentów.",
+        "blurb_en": "Age 21. Capital of Byzantium. The frontier of three continents.",
+        "img": "captain-mehmed.jpg",
+        "note": "[DOBUDOWANE]"
+      },
+      {
+        "name_pl": "Wilhelm Zdobywca",
+        "title_pl": "Książę Normandii, Król Anglii",
+        "battle": "Hastings 1066",
+        "motto": "DEX AÏE",
+        "blurb_pl": "Bastard, który stał się królem. Strzała, która przeszła do legendy.",
+        "blurb_en": "The bastard who became king. The arrow that became legend.",
+        "img": "captain-william.jpg",
+        "note": "[DOBUDOWANE]"
+      }
+    ],
+    "arcs": [
+      {
+        "title_pl": "Korona walczy z Zakonem",
+        "title_en": "The Crown vs the Order",
+        "period": "XIV–XV w.",
+        "battles": "Płowce · Grunwald",
+        "blurb_pl": "Sto lat wojen z Krzyżakami. Łokietek zaczyna. Jagiełło kończy.",
+        "blurb_en": "A hundred years of war with the Teutons. Łokietek begins. Jagiełło ends."
+      },
+      {
+        "title_pl": "Korona walczy z Półksiężycem",
+        "title_en": "The Crown vs the Crescent",
+        "period": "XV–XVII w.",
+        "battles": "Konstantynopol · Lepanto · Wiedeń",
+        "blurb_pl": "Trzy stulecia obrony Europy. Trzy kontynenty na szali.",
+        "blurb_en": "Three centuries defending Europe. Three continents in the balance."
+      },
+      {
+        "title_pl": "Korona walczy o Świat",
+        "title_en": "The Crown for the World",
+        "period": "XVI–XVII w.",
+        "battles": "Orsza · Kircholm · Kłuszyn",
+        "blurb_pl": "Husaria w szczycie. Imperia ustępują. Polska na granicach świata.",
+        "blurb_en": "The hussar at his peak. Empires retreat. Poland at the edge of the world."
+      },
+      {
+        "title_pl": "Korona walczy ze Sobą",
+        "title_en": "The Crown Against Itself",
+        "period": "XV w.",
+        "battles": "Bosworth · Crécy · Agincourt",
+        "blurb_pl": "Wojny domowe. Bracia przeciw braciom. Wybór, który zmienia dynastię.",
+        "blurb_en": "Civil wars. Brothers against brothers. The choice that changes a dynasty."
+      }
+    ],
+    "questions": [
+      {"pl": "Czy uratujesz Koronę?", "en": "Will you save the Crown?"},
+      {"pl": "Po której stronie staniesz pod Grunwaldem?", "en": "Which side will you take at Grunwald?"},
+      {"pl": "Czy obronisz Wiedeń?", "en": "Will you defend Vienna?"},
+      {"pl": "Czy zbudujesz nowe imperium na ruinach starego?", "en": "Will you build a new empire on the ruins of the old?"}
+    ]
+  },
+  "mechanics": {
+    "hook_pl": "Tura w 90 sekund. Bitwa w 90 minut.",
+    "hook_en": "A turn in 90 seconds. A battle in 90 minutes.",
+    "systems": [
+      {"name_pl": "Morale", "name_en": "Morale", "desc_pl": "Armia łamie się, zanim zginie.", "desc_en": "An army breaks before it dies.", "icon": "banner"},
+      {"name_pl": "Formacje", "name_en": "Formations", "desc_pl": "Klin, szachownica, cheval de frise.", "desc_en": "Wedge, chequer, cheval de frise.", "icon": "lances"},
+      {"name_pl": "Teren", "name_en": "Terrain", "desc_pl": "Wzgórza, lasy, bagna — każde inaczej.", "desc_en": "Hills, forests, marshes — each different.", "icon": "hills"},
+      {"name_pl": "Widoczność", "name_en": "Visibility", "desc_pl": "Mgła wojny, zwiad, zasadzki.", "desc_en": "Fog of war, scouts, ambushes.", "icon": "eye"},
+      {"name_pl": "Rozkaz", "name_en": "Command", "desc_pl": "Hierarchia dowodzenia, opóźnienia, błędy.", "desc_en": "Chain of command, delays, errors.", "icon": "mace"},
+      {"name_pl": "Logistyka", "name_en": "Logistics", "desc_pl": "Tabor, zaopatrzenie, przewaga marszu.", "desc_en": "Wagon train, supply, march advantage.", "icon": "wagon"}
+    ]
+  },
+  "personalization": {
+    "title_pl": "Twój Wódz. Twoja Chorągiew. Twoja Bitwa.",
+    "title_en": "Your Captain. Your Banner. Your Battle.",
+    "lead_pl": "Wpisz swoje imię w Kronikę. Imienna karta dowódcy w grze, własny herb na figurce, twoja chorągiew na polu bitwy.",
+    "lead_en": "Write your name into the Chronicle. A named commander card in the game, your coat of arms on the figurine, your banner on the field.",
+    "features": [
+      {
+        "title_pl": "Kreator herbu",
+        "title_en": "Coat of Arms Builder",
+        "desc_pl": "Tarcza czteropolowa, sześć barw heraldycznych, ośmiu charge'ów do wyboru. Live preview SVG.",
+        "desc_en": "Quartered shield, six heraldic colors, eight charges. Live SVG preview."
+      },
+      {
+        "title_pl": "Chorągiew z mottem",
+        "title_en": "Banner with Motto",
+        "desc_pl": "Wybierz motto łacińskie lub wpisz własne. Chorągiew widoczna w grze PC i drukowana na tile rozkładu.",
+        "desc_en": "Choose a Latin motto or write your own. The banner shows in PC game and prints on layout tiles."
+      },
+      {
+        "title_pl": "Spersonalizowana figurka",
+        "title_en": "Personalized Miniature",
+        "desc_pl": "Print-on-demand 28mm z Twoim herbem na tarczy i chorągwi. Tier Hetman+.",
+        "desc_en": "Print-on-demand 28mm with your arms on shield and banner. Hetman+ tier only."
+      },
+      {
+        "title_pl": "Imię w Kronice",
+        "title_en": "Name in the Chronicle",
+        "desc_pl": "Lista Hetmanów Założycieli — Twoje imię w manuale gry, na pieczęci lakowej i w napisach końcowych PC.",
+        "desc_en": "Founding Hetmans roster — your name in the manual, on the wax seal, in PC end credits."
+      }
+    ],
+    "shield_default": {
+      "field": "azure",
+      "charge": "eagle-displayed",
+      "motto": "HONOR ET GLORIA",
+      "name": "TWOJE IMIĘ"
+    }
+  },
+  "components": {
+    "title_pl": "Co dostajesz w Skrzyni Hetmana",
+    "title_en": "What's in the Hetman's Chest",
+    "tabletop": [
+      {"name_pl": "Plansza heksagonalna", "name_en": "Hexagonal modular board", "desc_pl": "Modularna, 4 typy terenu", "desc_en": "Modular, 4 terrain types"},
+      {"name_pl": "Figurki", "name_en": "Miniatures", "desc_pl": "40+ jednostek, 5 frakcji, skala 28mm", "desc_en": "40+ units, 5 factions, 28mm scale"},
+      {"name_pl": "Talia rozkazów", "name_en": "Order deck", "desc_pl": "60 kart, 3 style dowodzenia", "desc_en": "60 cards, 3 command styles"},
+      {"name_pl": "Tokeny morale", "name_en": "Morale tokens", "desc_pl": "120 tokenów, pełen system walki", "desc_en": "120 tokens, full combat system"},
+      {"name_pl": "Księga scenariuszy", "name_en": "Scenario book", "desc_pl": "5 bitew + edytor", "desc_en": "5 battles + editor"},
+      {"name_pl": "Pieczęć lakowa", "name_en": "Wax seal", "desc_pl": "Tier Hetman+ tylko, exclusive", "desc_en": "Hetman+ tier only, exclusive"}
+    ],
+    "digital": [
+      {"name_pl": "Steam Key", "name_en": "Steam Key", "desc_pl": "Windows / Linux", "desc_en": "Windows / Linux"},
+      {"name_pl": "Edytor scenariuszy", "name_en": "Scenario editor", "desc_pl": "Mapy, jednostki, frakcje", "desc_en": "Maps, units, factions"},
+      {"name_pl": "Tryb multiplayer", "name_en": "Multiplayer", "desc_pl": "PvP + rankingi", "desc_en": "PvP + leaderboards"},
+      {"name_pl": "5 kampanii", "name_en": "5 campaigns", "desc_pl": "Pełna warstwa narracyjna", "desc_en": "Full narrative layer"},
+      {"name_pl": "Soundtrack", "name_en": "Soundtrack", "desc_pl": "Cyfrowy, wysoka jakość", "desc_en": "Digital, hi-res"},
+      {"name_pl": "Artbook PDF", "name_en": "Artbook PDF", "desc_pl": "120 stron, koncepty i lore", "desc_en": "120 pages, concepts and lore"}
+    ]
+  },
+  "stretch_goals": {
+    "title_pl": "Stretch Goals",
+    "goals": [
+      {"amount": "€50k", "label_pl": "Funded — gra wychodzi", "label_en": "Funded — game ships", "status": "funded"},
+      {"amount": "€75k", "label_pl": "Bonus: Konstantynopol 1453", "label_en": "Bonus: Constantinople 1453", "status": "current"},
+      {"amount": "€100k", "label_pl": "Konfigurator wodza online", "label_en": "Online captain configurator", "status": "future"},
+      {"amount": "€150k", "label_pl": "Dodatek: Wiedeń 1683", "label_en": "Expansion: Vienna 1683", "status": "future"},
+      {"amount": "€200k", "label_pl": "Animowane intro PC", "label_en": "PC cinematic intro", "status": "future"},
+      {"amount": "€300k", "label_pl": "Tryb kampanii dynamicznej", "label_en": "Dynamic campaign mode", "status": "future"}
+    ]
+  },
+  "tiers": [
+    {
+      "name_pl": "GIERMEK",
+      "name_en": "SQUIRE",
+      "price": "€25",
+      "tagline_pl": "Cyfrowy debiut",
+      "tagline_en": "Digital debut",
+      "items_pl": ["Steam Key", "Soundtrack cyfrowy", "Artbook PDF", "Manual cyfrowy"],
+      "items_en": ["Steam Key", "Digital soundtrack", "Artbook PDF", "Digital manual"]
+    },
+    {
+      "name_pl": "CHORĄŻY",
+      "name_en": "BANNERMAN",
+      "price": "€50",
+      "tagline_pl": "Pierwsza chorągiew",
+      "tagline_en": "First banner",
+      "items_pl": ["Wszystko z Giermka", "1 chorągiew imienna w grze PC", "Quick Rules druk"],
+      "items_en": ["Everything Squire", "1 named banner in PC game", "Quick Rules in print"]
+    },
+    {
+      "name_pl": "RYCERZ",
+      "name_en": "KNIGHT",
+      "price": "€75",
+      "tagline_pl": "Pudełko Grunwaldu",
+      "tagline_en": "Grunwald box",
+      "items_pl": ["Pudełko bazowe", "Steam Key", "5 scenariuszy historycznych"],
+      "items_en": ["Base box", "Steam Key", "5 historical scenarios"],
+      "highlighted": true
+    },
+    {
+      "name_pl": "HETMAN",
+      "name_en": "HETMAN",
+      "price": "€149",
+      "tagline_pl": "Twój własny wódz",
+      "tagline_en": "Your own captain",
+      "items_pl": ["Wszystko z Rycerza", "Dodatek Potop", "Spersonalizowana figurka", "Pieczęć lakowa"],
+      "items_en": ["Everything Knight", "Deluge expansion", "Personalized miniature", "Wax seal"]
+    },
+    {
+      "name_pl": "KRÓL",
+      "name_en": "KING",
+      "price": "€299",
+      "tagline_pl": "Edycja deluxe",
+      "tagline_en": "Deluxe edition",
+      "items_pl": ["Wszystko z Hetmana", "Dodatki Kresy + Wiedeń", "6 figurek personalizowanych", "Edycja deluxe + signed list"],
+      "items_en": ["Everything Hetman", "Borderlands + Vienna expansions", "6 personalized miniatures", "Deluxe edition + signed letter"]
+    },
+    {
+      "name_pl": "SUWEREN",
+      "name_en": "SOVEREIGN",
+      "price": "€499",
+      "tagline_pl": "Limited 50 — Twój scenariusz",
+      "tagline_en": "Limited 50 — Your scenario",
+      "items_pl": ["Wszystko z Króla", "Twój scenariusz w bazie gry", "Imię w manuale", "Zaproszenie do studia w Warszawie"],
+      "items_en": ["Everything King", "Your own scenario in base game", "Name in manual", "Studio visit in Warsaw"],
+      "limited": 50,
+      "note": "[DOBUDOWANE]"
+    }
+  ],
+  "team": [
+    {
+      "name": "Cezary Skwarło",
+      "role_pl": "Project Manager · Game Designer",
+      "role_en": "Project Manager · Game Designer",
+      "why_pl": "Wargame'y od dziecka. 60 sesji testowych zrobiłem osobiście. Ta gra musi powstać, bo nikt inny nie zrobił hybrydy stół + PC z polskiej historii.",
+      "why_en": "Wargames since childhood. I personally ran 60 playtest sessions. This game must exist because no one else has built a table+PC hybrid for Polish history.",
+      "img": "team-cezary.jpg"
+    },
+    {
+      "name": "Marcin Trofiniak",
+      "role_pl": "Lead Engine Designer",
+      "role_en": "Lead Engine Designer",
+      "why_pl": "Dwa lata pisałem silnik zasad od zera. Sześć systemów. Każdy testowany przy stole i w kodzie. Chcę żebyś poczuł, że kości nie rządzą — Ty rządzisz.",
+      "why_en": "Two years writing the rules engine from scratch. Six systems. Each tested at the table and in code. I want you to feel that the dice don't rule — you do.",
+      "img": "team-marcin.jpg"
+    },
+    {
+      "name": "Filip Łukaszewski",
+      "role_pl": "CEO Manager Games · Copy",
+      "role_en": "CEO Manager Games · Copy",
+      "why_pl": "Spędziłem 15 lat wydając gry tycoon. Bitwy Korony to nasza pierwsza wargame i nasza pierwsza próba globalna. Nie chcę żebyś nam ufał — chcę żebyś nas sprawdził.",
+      "why_en": "I spent 15 years publishing tycoon games. Bitwy Korony is our first wargame and our first global play. I don't want your trust — I want your scrutiny.",
+      "img": "team-filip.jpg"
+    }
+  ],
+  "consultants": [
+    {"name": "[Konsultant historyczny — XV w.]", "note": "[DOBUDOWANE]"},
+    {"name": "[Konsultant historyczny — XVII w.]", "note": "[DOBUDOWANE]"},
+    {"name": "[Grupa rekonstrukcyjna — Husaria]", "note": "[DOBUDOWANE]"}
+  ],
+  "money_breakdown": {
+    "title_pl": "Dokąd idą Twoje pieniądze",
+    "title_en": "Where your money goes",
+    "items": [
+      {"label_pl": "Mass production figurek", "label_en": "Miniature mass production", "pct": 40},
+      {"label_pl": "Druk planszy i kart", "label_en": "Board & card printing", "pct": 25},
+      {"label_pl": "Steam build i serwery", "label_en": "Steam build & servers", "pct": 15},
+      {"label_pl": "Ilustracje i artbook", "label_en": "Illustration & artbook", "pct": 10},
+      {"label_pl": "Fulfillment i wysyłka", "label_en": "Fulfillment & shipping", "pct": 10}
+    ],
+    "note_pl": "€500k = pełen scope. Każde euro liczone.",
+    "note_en": "€500k = full scope. Every euro counted."
+  },
+  "press": [
+    {"quote_pl": "[Cytat z testu beta — placeholder]", "author": "[Tester #1]", "note": "[DOBUDOWANE]"},
+    {"quote_pl": "[Cytat z press — placeholder]", "author": "[Magazyn wargamingowy]", "note": "[DOBUDOWANE]"}
+  ],
+  "faq": [
+    {
+      "q_pl": "Kiedy startuje kampania KS?",
+      "a_pl": "Q3 2026. Zapisz się na pre-launch żeby dostać powiadomienie w dniu startu.",
+      "q_en": "When does the KS campaign start?",
+      "a_en": "Q3 2026. Sign up for pre-launch to get notified on day one."
+    },
+    {
+      "q_pl": "Jaka jest jakość figurek — resin czy plastik?",
+      "a_pl": "PVC plastik high-quality, skala 28mm, 5 typów póz. Tiery Hetman+ dostają personalizowane print-on-demand resin.",
+      "q_en": "Miniature quality — resin or plastic?",
+      "a_en": "High-quality PVC plastic, 28mm scale, 5 pose types. Hetman+ tiers receive print-on-demand resin personalized minis."
+    },
+    {
+      "q_pl": "Kiedy wysyłka?",
+      "a_pl": "Bazowe pudełko: Q2 2027. Dodatki: Q4 2027. Tier Suweren: po sesji w studiu — pierwsza fala.",
+      "q_en": "Shipping date?",
+      "a_en": "Base box: Q2 2027. Expansions: Q4 2027. Sovereign tier: after studio session — first wave."
+    },
+    {
+      "q_pl": "Czy będzie wersja PL i EN?",
+      "a_pl": "Tak, obie. Manual, karty, ekrany — wszystko w obu językach. Ankietujemy backerów po starcie kampanii.",
+      "q_en": "PL and EN editions?",
+      "a_en": "Yes, both. Manual, cards, screens — everything in both languages. We poll backers after campaign launch."
+    },
+    {
+      "q_pl": "Jaki silnik PC?",
+      "a_pl": "Unity URP, Windows + Linux native, Steam Key. Mac + konsole jako stretch goal poza pierwszą falą.",
+      "q_en": "PC engine?",
+      "a_en": "Unity URP, Windows + Linux native, Steam Key. Mac + consoles as stretch beyond first wave."
+    },
+    {
+      "q_pl": "Czy art jest AI-generated?",
+      "a_pl": "Koncepty i landing — częściowo AI-assisted z human-in-the-loop. Finalny artbook i karty — w 100% przez polskich ilustratorów. Pełen credits w manualu.",
+      "q_en": "AI-generated art?",
+      "a_en": "Concepts & landing — partly AI-assisted with human-in-the-loop. Final artbook and cards — 100% by Polish illustrators. Full credits in manual."
+    },
+    {
+      "q_pl": "Co to jest Quick Rules PDF?",
+      "a_pl": "12-stronicowy PDF z bazową mechaniką. Możesz zagrać przy stole z dowolnymi figurkami zanim przyjdzie pudełko. Email-gated, darmowy.",
+      "q_en": "What is the Quick Rules PDF?",
+      "a_en": "A 12-page PDF with core mechanics. Play at the table with any miniatures while you wait for the box. Email-gated, free."
+    },
+    {
+      "q_pl": "Czy zwroty?",
+      "a_pl": "Pre-shipping: pełen zwrot przez pledge manager. Post-shipping: zgodnie z polskim prawem konsumenckim, 14 dni od dostawy.",
+      "q_en": "Refunds?",
+      "a_en": "Pre-shipping: full refund through pledge manager. Post-shipping: per Polish consumer law, 14 days from delivery."
+    }
+  ],
+  "footer": {
+    "company": "Manager Games S.A.",
+    "krs": "KRS 0000775033",
+    "nip": "NIP 9721299324",
+    "address": "ul. Grzybowska 87, 00-844 Warszawa",
+    "email": "ceo@managergames.pl",
+    "press_email": "press@managergames.pl",
+    "social": {
+      "facebook": "https://facebook.com/managergames",
+      "twitter": "https://twitter.com/managergames",
+      "instagram": "https://instagram.com/managergames",
+      "youtube": "https://youtube.com/@managergames"
+    },
+    "ipk_acknowledgment_pl": "Projekt dofinansowany ze środków Instytutu Przemysłów Kreatywnych w ramach Programu Wsparcia Gier Wideo 2026.",
+    "ipk_acknowledgment_en": "Project co-financed by the Institute of Creative Industries under the Video Games Support Programme 2026."
+  }
+}

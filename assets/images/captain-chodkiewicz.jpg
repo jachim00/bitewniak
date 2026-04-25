@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <radialGradient id="cg1" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#F2C94C" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#7E1414"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#cg1)"/>
+  <!-- heraldic frame -->
+  <rect x="30" y="30" width="540" height="740" fill="none" stroke="#F2C94C" stroke-width="3"/>
+  <rect x="40" y="40" width="520" height="720" fill="none" stroke="#F2C94C" stroke-width="1" opacity=".6"/>
+  <!-- shield on top -->
+  <g transform="translate(300 80)">
+    <path d="M-30 -30 Q-30 -40 -20 -40 L20 -40 Q30 -40 30 -30 L30 5 Q30 30 0 40 Q-30 30 -30 5 Z" fill="#F2C94C" opacity=".7" stroke="#7E1414" stroke-width="1"/>
+    <text x="0" y="6" text-anchor="middle" font-family="Cinzel, serif" font-size="16" fill="#7E1414">JKC</text>
+  </g>
+  <!-- silhouette portrait -->
+  <ellipse cx="300" cy="360" rx="160" ry="180" fill="#7E1414" stroke="#F2C94C" stroke-width="2"/>
+  <!-- helm/head -->
+  <circle cx="300" cy="320" r="80" fill="#7E1414" opacity=".6" stroke="#F2C94C" stroke-width="1.5"/>
+  <!-- shoulders/armor -->
+  <path d="M180 480 Q300 420 420 480 L420 540 Q300 510 180 540 Z" fill="#F2C94C" opacity=".25" stroke="#F2C94C" stroke-width="1.5"/>
+  <!-- cape suggestion -->
+  <path d="M150 530 Q300 510 450 530 L470 700 L130 700 Z" fill="#7E1414" opacity=".5" stroke="#F2C94C" stroke-width="1"/>
+  <!-- name and motto -->
+  <text x="300" y="640" text-anchor="middle" font-family="Cinzel, serif" font-size="22" font-weight="600" fill="#F2C94C" letter-spacing="2">JAN KAROL CHODKIEWICZ</text>
+  <text x="300" y="675" text-anchor="middle" font-family="EB Garamond, serif" font-size="14" font-style="italic" fill="#F2C94C" opacity=".85">Wielki Hetman Litewski</text>
+  <text x="300" y="720" text-anchor="middle" font-family="Cinzel, serif" font-size="16" fill="#F2C94C" letter-spacing="3">DEUS FORTITUDO MEA</text>
+  <!-- watermark -->
+  <text x="40" y="780" font-family="Inter, sans-serif" font-size="9" fill="#F2C94C" opacity=".4">PLACEHOLDER · per BRIEF_GRAFICZNY.md §3.7-3.10</text>
+</svg>
